@@ -115,10 +115,17 @@ body {
 }
 
 .faq-input:checked~label .faq-title:after,
-.faq:hover .faq-title:after,
-.faq:focus .faq-title:after {
+.faq-input:hover .faq-title:after,
+.faq-input:focus .faq-title:after {
     display: block;
     border-style: solid;
     border-width: 0 5px 8px 5px;
     border-color: transparent transparent #fff transparent;
 }
+
+.faq-input:checked~label .faq-title:after,
+.faq:hover .faq-title:after,
+.faq:focus .faq-title:after {
+    display: block;
+}
+
